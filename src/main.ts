@@ -43,14 +43,7 @@ import { FormBuilder, ReactiveFormsModule } from '@angular/forms';
 })
 export class App {
   
-  private readonly fb = inject(FormBuilder);
-
-  contactForm = this.fb.nonNullable.group({
-    name: [''],
-    email: [''],
-    phone: ['']
-  });
-
+ 
   onSubmit() {}
 }
 
